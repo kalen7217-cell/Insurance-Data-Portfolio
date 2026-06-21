@@ -25,8 +25,8 @@ Insurance conclusions based on the Data:
 5.	Auto is the worst performing product by loss frequency at 0.5358%.  Auto is likely still profitable, but the dataset lacks underwriting expense^5 data to properly determine combined ratio^6.
 
 Methodology Notes:
--Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: Pearson correlation coefficient - Wikipedia. 
--All currency amounts were converted from Euros to US Dollars at the 01/01/2026 exchange rate of 1 to $1.17.
+*Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: Pearson correlation coefficient - Wikipedia. 
+*All currency amounts were converted from Euros to US Dollars at the 01/01/2026 exchange rate of 1 to $1.17.
 
 Footnotes:
 1.	Loss frequency: the number of times a specific loss or risk event occurs over a given period.
