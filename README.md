@@ -5,12 +5,12 @@ Project Overview
 Dataset is a synthetic P&C insurance dataset sourced from Kaggle, designed to reflect real-world loss distributions.  Dataset contains 15,000 rows for more than three years across four lines of business in five territories.  It can be found on Kaggle: Insurance Dataset for Data Engineering Practice. Data is prepared for underwriting and pricing personnel to make informed, strategic-level decisions.
 
 Data Pipeline
-•	Cleaned three separate data tables of contracts, vehicles, and claims using  BigQuery/SQL.  
-•	Imported tables into Python to finalize data cleaning using NumPy and Pandas.  Merged the three tables into one table using common key of ‘contract_id’.
-•	Created columns, functions, and objects to facilitate loss data visuals.  Including a simple pro rata calculator, Boolean masks, and exchange rate conversion (Euros to Dollars on 1/1/26).
-•	Used Matplotlib/ Seaborn to create visuals including heatmap, scatter, box plot and bar graphs.
-•	Transferred merged table into Tableau to render visualizations. Created calculations and parameters to transform data into meaningful tools for decision-making.
-•	Created dashboards from worksheets in Tableau.  Created dynamic charts to toggle closed without payment claims for loss frequency.  Developed a dynamic loss distribution histogram with bin size selector.
+*	Cleaned three separate data tables of contracts, vehicles, and claims using  BigQuery/SQL.  
+*	Imported tables into Python to finalize data cleaning using NumPy and Pandas.  Merged the three tables into one table using common key of ‘contract_id’.
+*	Created columns, functions, and objects to facilitate loss data visuals.  Including a simple pro rata calculator, Boolean masks, and exchange rate conversion (Euros to Dollars on 1/1/26).
+*	Used Matplotlib/ Seaborn to create visuals including heatmap, scatter, box plot and bar graphs.
+*	Transferred merged table into Tableau to render visualizations. Created calculations and parameters to transform data into meaningful tools for decision-making.
+*	Created dashboards from worksheets in Tableau.  Created dynamic charts to toggle closed without payment claims for loss frequency.  Developed a dynamic loss distribution histogram with bin size selector.
 
 Data decisions made and rationale:
 -Included null values for gender as they represent over 20% of the dataset.  Management should be aware and adjust data input/ collection methods.
