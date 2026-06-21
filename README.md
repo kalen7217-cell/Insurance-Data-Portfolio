@@ -21,13 +21,13 @@ Insurance conclusions based on the Data:
 1.	Auto loss frequency^1 does not conform to expected age results. Ages 35-39 have a frequency three times higher (1.091%) than ages 18-23 (0.300%). Rates for 35-39 segment may be inadequate.
 2.	Although 20.6% of gender records are null, the remaining 79.4% reflects a near-perfect 50/50 male/female split (50.3% male, 49.7% female)^2, consistent with global gender demographics. Null records were retained and flagged as Unknown rather than excluded as the unknown segment produced the highest loss ratio at 2.49% compared to 1.85% (female) and 1.13% (male).  This suggests potential adverse selection risk in records with missing demographic data.
 3.	There are no losses for health or life lines of business. Although life policies typically have longer tails^3 than property & casualty lines, we’d expect to at least see some losses based on mortality rates (0.78%)^4.  Coupled with zero health claims, it is more likely we do not have data for claims in those lines of business.
-4.	Loss frequency for low risk zone of 0.3932% is more than twice the high risk zone(0.1648%).  Although this may change with more years/ data points, management should consider the metrics of each risk zone.
+4.  Loss frequency for low risk zone of 0.3932% is more than twice the high risk zone(0.1648%).  Although this may change with more years/ data points, management should consider the metrics of each risk zone.
 5.	Auto is the worst performing product by loss frequency at 0.5358%.  Auto is likely still profitable, but the dataset lacks underwriting expense^5 data to properly determine combined ratio^6.
 
 Methodology Notes:
 
-*Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: https://en.wikipedia.org/wiki/Pearson_correlation_coefficient. 
-*All currency amounts were converted from Euros to US Dollars at the 01/01/2026 exchange rate of 1 to $1.17.
+1.  Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: https://en.wikipedia.org/wiki/Pearson_correlation_coefficient. 
+2.  All currency amounts were converted from Euros to US Dollars at the 01/01/2026 exchange rate of 1 to $1.17.
 
 Footnotes:
 1.	Loss frequency: the number of times a specific loss or risk event occurs over a given period.
