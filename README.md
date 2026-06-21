@@ -26,13 +26,13 @@ Insurance conclusions based on the Data:
 
 Methodology Notes:
 
-*Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: [Pearson correlation coefficient - Wikipedi](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient). 
+*Python heatmap compares correlations across different metrics using the Pearson correlation coefficient.  Positive numbers indicate a directly proportional relationship with values closer to one indicating a stronger correlation.  Negative numbers show an inversely proportional relationship.  For more info, see: https://en.wikipedia.org/wiki/Pearson_correlation_coefficient. 
 *All currency amounts were converted from Euros to US Dollars at the 01/01/2026 exchange rate of 1 to $1.17.
 
 Footnotes:
 1.	Loss frequency: the number of times a specific loss or risk event occurs over a given period.
-2.	2024, [Human sex ratio - Wikipedia](https://en.wikipedia.org/wiki/Human_sex_ratio).
+2.	2024, en.wikipedia.org/wiki/Human_sex_ratio.
 3.	Tail: The period following policy cancellation/ expiration in which claims are made for occurrences during the policy period.
-4.	2025, [World Death Rate (1950-2026)](https://www.macrotrends.net/global-metrics/countries/wld/world/death-rate).
+4.	2025, www.macrotrends.net/global-metrics/countries/wld/world/death-rate.
 5.	Underwriting expense: the direct and indirect costs associated with underwriting.
 6.	Combined ratio: a measure of underwriting profitability comparing underwriting expenses and losses to earned premium.
