@@ -12,12 +12,12 @@ Data Pipeline
 *	Transferred merged table into Tableau to render visualizations. Created calculations and parameters to transform data into meaningful tools for decision-making.
 *	Created dashboards from worksheets in Tableau.  Created dynamic charts to toggle closed without payment claims for loss frequency.  Developed a dynamic loss distribution histogram with bin size selector.
 
-Data decisions made and rationale:
+Data Decisions Made and Rationale:
 -Included null values for gender as they represent over 20% of the dataset.  Management should be aware and adjust data input/ collection methods.
 -Data for occurrence years 2025 and 2026 were omitted from the Python trend analysis as there were few data points.  Whether a product of a synthetic dataset, longer liability tails in France/ Europe, or a data collection issue, it skews the data unjustifiably.  Only two years for the trend analysis is not ideal, but it’s still a useful metric for management, actuaries/ pricing, and underwriting.
 -Some values for engine power were not labeled.  As the integer values were in line with horsepower, assumed the values were for horsepower.   A user interface forcing a label will eliminate future confusion and ensure data is accurate.
 
-Insurance conclusions based on the Data:
+Insurance Conclusions Based on the Data:
 1.	Auto loss frequency^1 does not conform to expected age results. Ages 35-39 have a frequency three times higher (1.091%) than ages 18-23 (0.300%). Rates for 35-39 segment may be inadequate.
 2.	Although 20.6% of gender records are null, the remaining 79.4% reflects a near-perfect 50/50 male/female split (50.3% male, 49.7% female)^2, consistent with global gender demographics. Null records were retained and flagged as Unknown rather than excluded as the unknown segment produced the highest loss ratio at 2.49% compared to 1.85% (female) and 1.13% (male).  This suggests potential adverse selection risk in records with missing demographic data.
 3.	There are no losses for health or life lines of business. Although life policies typically have longer tails^3 than property & casualty lines, we’d expect to at least see some losses based on mortality rates (0.78%)^4.  Coupled with zero health claims, it is more likely we do not have data for claims in those lines of business.
