@@ -2,14 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
-"""
-List of shit to build:
-1. Sales data? (expired, cancelled, etc in other file)
 
-PIPELINE IDEAS
-1. agency side: send renewals to workflow 90 days before expiration
-2. auto-pull demographic info for reneal rating (with age updating to new bin) 
-"""
 
 #Import .csv file
 merged = pd.read_csv(r"C:\Users\kalen\OneDrive\Desktop\portfolio\synth_ins data\merged2.csv")
