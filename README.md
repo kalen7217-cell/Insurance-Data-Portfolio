@@ -30,8 +30,8 @@ Methodology Notes:
 
 Footnotes:
 1.	Loss frequency: the number of times a specific loss or risk event occurs over a given period.
-2.	2024, www.en.wikipedia.org/wiki/Human_sex_ratio.
+2.	2024; en.wikipedia.org/wiki/Human_sex_ratio.
 3.	Tail: The period following policy cancellation/ expiration in which claims are made for occurrences during the policy period.
-4.	2025, www.macrotrends.net/global-metrics/countries/wld/world/death-rate.
+4.	2025; www.macrotrends.net/global-metrics/countries/wld/world/death-rate.
 5.	Underwriting expense: the direct and indirect costs associated with underwriting.
 6.	Combined ratio: a measure of underwriting profitability comparing underwriting expenses and losses to earned premium.
