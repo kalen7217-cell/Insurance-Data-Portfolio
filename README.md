@@ -1,5 +1,8 @@
 # Insurance-Data-Portfolio
 Underwriting metrics with synthetic insurance dataset
+[Tableau Dashboard] ([https://public.tableau.com/app/profile/kalen.carr/viz/insurance_dataset_17797480732470/Dashboard1#1]
+[Kaggle visuals & Python code] https://www.kaggle.com/code/kalencarr/insurance-visuals-script
+[Source Dataset] (https://www.kaggle.com/datasets/kpoviesistphane/insurance-dataset-for-data-engineering-practice)
 
 Project Overview
 Dataset is a synthetic P&C insurance dataset sourced from Kaggle, designed to reflect real-world loss distributions.  Dataset contains 15,000 rows for more than three years across four lines of business in five territories.  It can be found on Kaggle: Insurance Dataset for Data Engineering Practice. Data is prepared for underwriting and pricing personnel to make informed, strategic-level decisions.
