@@ -1,5 +1,6 @@
-# Insurance-Data-Portfolio
-Underwriting metrics with synthetic insurance dataset
+# ETL-Insurance Dataset
+
+Complete ETL of underwriting metrics with synthetic insurance dataset
 [Tableau Dashboard] ([https://public.tableau.com/app/profile/kalen.carr/viz/insurance_dataset_17797480732470/Dashboard1#1]
 [Kaggle (all visuals & Python code)][ https://www.kaggle.com/code/kalencarr/insurance-visuals-script](https://www.kaggle.com/code/kalencarr/insurance-dataset-analysis-visualizations)
 [Source Dataset] (https://www.kaggle.com/datasets/kpoviesistphane/insurance-dataset-for-data-engineering-practice)
